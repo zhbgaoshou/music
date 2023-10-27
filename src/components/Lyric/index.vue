@@ -8,7 +8,9 @@ const footerStore = useFooterStore();
   <!-- 该页面的响应式方案在Footer里面 -->
   <div class="lyric" :class="{ active: footerStore.is_show_lyric }">
     <section class="lyric-main">
-      <div class="lyric-main-left"></div>
+      <div class="lyric-main-left">
+        <h4>歌词</h4>
+      </div>
       <div class="lyric-main-rigtht"></div>
     </section>
     <!-- 功能模块 -->
