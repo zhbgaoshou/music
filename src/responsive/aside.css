@@ -1,0 +1,9 @@
+@media screen and (max-width: 576px) {
+  .menu {
+    display: none !important;
+  }
+  .show-menu {
+    display: block !important;
+    margin-right: 10px;
+  }
+}

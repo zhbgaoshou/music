@@ -1,0 +1,15 @@
+/* 发现页面的响应式处理 */
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 576px) {
+  .new-zhuanji {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 374px) {
+}

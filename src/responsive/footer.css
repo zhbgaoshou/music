@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+  .footer-right {
+    display: none !important;
+  }
+  #footer-mid {
+    justify-content: flex-end;
+  }
+  #footer-menu {
+    display: block;
+  }
+  /* 这是播放列表的响应式 */
+  .pc-plist {
+    display: none;
+  }
+  .m-plist {
+    display: block !important;
+    bottom: 123px !important;
+    width: 100vw !important;
+    border-radius: 10px 10px 0 0 !important;
+  }
+  /* 歌词页响应式处理 */
+  .lyric-fun {
+    display: block !important;
+  }
+  .lyric-main {
+    flex-direction: column;
+    padding: 10px !important;
+  }
+  .lyric-main-rigtht {
+    margin-bottom: 50px;
+  }
+  /* 设置卡片 */
+  .setting-card {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+/* 发现页面的响应式处理 */
+
+@media screen and (max-width: 850px) {
+  .song-item {
+    flex: 0 0 50% !important;
+  }
+
+  .res-mv-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* .rec-nav {
+    justify-content: space-around !important;
+  } */
+  .txt {
+    display: none !important;
+  }
+  .more {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 374px) {
+  .song-item {
+    flex: 0 0 100% !important;
+  }
+}

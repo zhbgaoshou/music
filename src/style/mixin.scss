@@ -1,0 +1,63 @@
+// 垂直居中
+@mixin vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+// 水平垂直居中(定位版)
+
+@mixin center-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// 水平垂直居中(flex版)
+@mixin box-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// input样式
+@mixin input-style {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+// 默认图片样式
+@mixin img-style($radius:0) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: $radius;
+}
+
+// 单行省略
+@mixin ell-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+
+// 多行省略
+@mixin ell-mline($line:2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $line;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+// 渐变
+@mixin jianbian() {
+  background: #ADA996;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,19 @@
+// 主题
+$theme:#f9f9f9;
+$border-color:#ebe9e9;
+$header-bg-color:#fff;
+$menu-bg-color:#fff;
+$menu-item-color:#979898;
+// 这是路由组件以及地下导航的内边距，最外层父盒子的
+$padding:10px;
+
+// header高度
+$head-height:60px;
+
+// footer高度
+$foot-height:60px;
+
+// 动态计算播放列表的高度
+$plist-height:calc(100vh - $head-height - $foot-height);
+$plist-width:300px; // 激活状态的颜色
+$active:rgb(230, 15, 15)
